@@ -1,40 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
-    pad: 0;
+    padding: 0;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #a1c3ff;
-
-ul {
-    list-style-type: none;
+body {
+    font-family: 'Roboto', sans-serif;
 }
+
+
+.navbar .container {
+
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+p  {
+    max-width: 400px;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
     
 }
 
-img{
-    max-width: 100%;
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+    
 }
 
-h1, h2{
-    margin-bottom: 15px;
+.logo{
+    font-size: 24px;
+    
+    color: #f9faf8;
+    margin: 20px;
 }
 
-.container{
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 30px;
+header .container{
+    
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 0;
+    justify-content: space-between;
+
 }
 
-.navbar{
-    background: #3961a5;
+img {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+
+button {
+    background-color: #3882f6;
     color: white;
-
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 2px
 }
